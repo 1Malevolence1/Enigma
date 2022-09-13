@@ -25,6 +25,9 @@ fun main(){
             println(TextEncryptionClass().textEncryption(text!!.toByteArray(),"MD5"))
 
         }
+        else -> {
+            println("Выбирете один из предстваленных спопособов")
+        }
 
 
 
